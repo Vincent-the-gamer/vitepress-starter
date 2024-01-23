@@ -1,7 +1,7 @@
 {
   "name": "vitepress-starter",
   "version": "1.0.0",
-  "description": "♥️ Opinionated Vitepress Template",
+  "description": "♥️ Opinionated Vitepress Template ♥️",
   "type": "module",
   "scripts": {
     "serve": "vitepress dev contents",
