@@ -4,6 +4,7 @@ import { enConfig } from "./configs/en"
 import { zhHansConfig } from './configs/zh_hans'
 
 export default defineConfig({
+  base: "/vitepress-starter-demo/",
   ...docsConfig,
   head: [
     ['link', { rel: 'icon', href: '/logo/logo.png' }],
