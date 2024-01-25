@@ -4,9 +4,6 @@ import getNavs from "../navs/en";
 
 export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
     themeConfig: {
-        search: {
-            provider: "local"
-        },
         logo: "/logo/logo.png",
         outlineTitle: "Contents",
         outline: "deep",
