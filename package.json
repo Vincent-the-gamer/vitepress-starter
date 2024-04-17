@@ -13,9 +13,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.11.6",
-    "taze": "^0.13.1",
-    "vite": "^4.5.2",
+    "@types/node": "^20.12.7",
+    "taze": "^0.13.6",
+    "vite": "^5.2.9",
     "vitepress": "1.0.0-rc.22"
   }
 }
