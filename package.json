@@ -13,9 +13,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.14.5",
-    "taze": "^0.13.8",
-    "vite": "^5.3.1",
-    "vitepress": "1.0.0-rc.22"
+    "@shikijs/vitepress-twoslash": "^1.10.1",
+    "@types/node": "^20.14.9",
+    "taze": "^0.14.2",
+    "vite": "^5.3.3",
+    "vitepress": "1.2.3"
   }
 }
