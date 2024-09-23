@@ -6,7 +6,7 @@ hero:
   name: "VitePress Starter"
   text: "Opinionated VitePress Starter Template"
   tagline: "Starts a VitePress project with more features than the official project starter."
-  image: 
+  image:
     src: "/logo/logo.png"
     alt: logo
   actions:
@@ -17,6 +17,6 @@ hero:
 features:
   - title: Card
     details: This is a card.
-    icon: 
+    icon:
       src: "/imgs/card.jpg"
 ---

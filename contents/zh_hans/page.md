@@ -5,6 +5,7 @@ lastUpdated: true
 ---
 
 # 特性
+
 - i18n - 多语言支持.
 - 主题切换动画 - [View Transitions API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API)。
 - taze - 🥦 保持依赖最新🥦 。
@@ -14,14 +15,14 @@ lastUpdated: true
 ```ts twoslash
 // 这就是twoslash
 
+import { transformerTwoslash } from '@shikijs/vitepress-twoslash'
 // @noErrors
 import { defineConfig } from 'vitepress'
-import { transformerTwoslash } from '@shikijs/vitepress-twoslash'
 
 export default defineConfig({
   markdown: {
     codeTransformers: [
-      transformerTwoslash() 
+      transformerTwoslash()
     ]
   }
 })

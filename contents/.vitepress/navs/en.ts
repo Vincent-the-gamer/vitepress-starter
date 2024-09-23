@@ -1,5 +1,5 @@
 export default function getNavs() {
-    return [
-        { text: 'Main Page', link: '/' }
-    ]
+  return [
+    { text: 'Main Page', link: '/' },
+  ]
 }

@@ -6,7 +6,7 @@ hero:
   name: "VitePress 起手模板"
   text: "固执己见的 VitePress 起手模板"
   tagline: "以一个比官方模板更多起始配置项的状态开启一个新的VitePress项目"
-  image: 
+  image:
     src: "/logo/logo.png"
     alt: logo
   actions:
@@ -17,6 +17,6 @@ hero:
 features:
   - title: 卡片
     details: 芝士卡片。
-    icon: 
+    icon:
       src: "/imgs/card.jpg"
 ---
