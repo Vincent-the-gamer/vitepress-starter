@@ -15,6 +15,7 @@
 - taze - 🥦 keep your dependencies fresh.🥦
 - Pre-configured main page, navbars, sidebars.
 - twoslash - Add a hint of TypeScript compiler in code.
+- eslint - check and format codes and markdowns.
 
 # Usage
 
