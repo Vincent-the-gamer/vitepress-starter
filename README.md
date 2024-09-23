@@ -18,10 +18,16 @@
 
 # Usage
 
-# Dev
+## Dev
 
 <pre align='center'>
 pnpm run serve
+</pre>
+
+## Format Code(use eslint)
+
+<pre align='center'>
+pnpm run lint:fix
 </pre>
 
 ## Build

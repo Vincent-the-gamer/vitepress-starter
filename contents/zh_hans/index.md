@@ -4,7 +4,7 @@ title: "主页"
 
 hero:
   name: "VitePress 起手模板"
-  text: "固执己见的 VitePress 起手模板"
+  text: "按照个人喜好配置的 VitePress 起手模板"
   tagline: "以一个比官方模板更多起始配置项的状态开启一个新的VitePress项目"
   image:
     src: "/logo/logo.png"
