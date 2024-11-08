@@ -9,7 +9,7 @@
 </p>
 
 > [!NOTE]
-> Change the `base` option to '/' or remove it in `.vitepress/config.ts` if you don't need it.
+> Change the `base` option to '/' or remove it in `.vitepress/config.ts` if you don't need.
 
 # Features
 
@@ -21,6 +21,12 @@
 - eslint - check and format codes and markdowns.
 
 # Usage
+
+## Don't forget to install dependencies!
+
+```shell
+pnpm i
+```
 
 ## Dev
 
