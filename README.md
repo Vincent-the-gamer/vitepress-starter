@@ -8,6 +8,9 @@
     <span>♥️ Opinionated Vitepress Template ♥️</span>
 </p>
 
+> [!NOTE]
+> Change the `base` option to '/' or remove it in `.vitepress/config.ts` if you don't need it.
+
 # Features
 
 - i18n - multi-language support.

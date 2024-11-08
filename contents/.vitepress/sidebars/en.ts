@@ -3,7 +3,7 @@ export default [
     text: 'Contents',
     collapsed: false,
     items: [
-      { text: 'Page', link: '/page' },
+      { text: 'Page', link: '/en/page' },
     ],
   },
 ]
