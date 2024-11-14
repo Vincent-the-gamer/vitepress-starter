@@ -39,7 +39,7 @@ export default defineConfig({
     root: {
       label: 'English',
       lang: 'en',
-      link: '/en/',
+      link: '/',
       ...enConfig,
     },
     zh_hans: {
