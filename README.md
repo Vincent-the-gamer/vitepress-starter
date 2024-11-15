@@ -27,9 +27,9 @@
 
 ## Don't forget to install dependencies!
 
-```shell
+<pre align='center'>
 pnpm i
-```
+</pre>
 
 ## Dev
 
