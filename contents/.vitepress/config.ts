@@ -54,5 +54,5 @@ export default defineConfig({
       transformerTwoslash(),
     ],
   },
-  lastUpdated: true
+  lastUpdated: true,
 })

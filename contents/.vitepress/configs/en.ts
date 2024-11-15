@@ -27,8 +27,8 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
       message: `Document by Vincent-the-gamer | MIT Licensed`,
       copyright: 'Copyright © 2024-PRESENT Vincent-the-gamer',
     },
-    lightModeSwitchTitle: "Switch to light mode.",
+    lightModeSwitchTitle: 'Switch to light mode.',
     darkModeSwitchTitle: 'Switch to dark mode.',
-    lastUpdatedText: "Last updated"
+    lastUpdatedText: 'Last updated',
   },
 }

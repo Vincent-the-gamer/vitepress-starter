@@ -12,7 +12,7 @@
 > Change the `base` option to '/' to remove base url prefix.
 
 > [!WARNING]
-> The main page is on `<your_base>/en/`, not `/`, VitePress will NOT redirect this for you.
+> The main page is on `<base_url>/en/`, not `<base_url>/`, VitePress will NOT redirect this for you.
 
 # Features
 
