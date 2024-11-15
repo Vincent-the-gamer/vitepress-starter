@@ -9,7 +9,10 @@
 </p>
 
 > [!NOTE]
-> Change the `base` option to '/' or remove it in `.vitepress/config.ts` if you don't need.
+> Change the `base` option to '/' to remove base url prefix.
+
+> [!WARNING]
+> The main page is on `<your_base>/en/`, not `/`, VitePress will NOT redirect this for you.
 
 # Features
 
@@ -54,4 +57,4 @@ pnpm run dep
 
 # Demo
 
-[https://vincent-the-gamer.github.io/vitepress-starter-demo/](https://vincent-the-gamer.github.io/vitepress-starter-demo/)
+[https://vincent-the-gamer.github.io/vitepress-starter-demo/en/](https://vincent-the-gamer.github.io/vitepress-starter-demo/en/)
