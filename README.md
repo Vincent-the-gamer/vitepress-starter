@@ -55,4 +55,4 @@ pnpm run dep
 
 # Demo
 
-[https://vincent-the-gamer.github.io/vitepress-starter-demo/en/](https://vincent-the-gamer.github.io/vitepress-starter-demo/)
+[https://vincent-the-gamer.github.io/vitepress-starter-demo/](https://vincent-the-gamer.github.io/vitepress-starter-demo/)
