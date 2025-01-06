@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /en/page
+      link: /page
 
 features:
   - title: Card

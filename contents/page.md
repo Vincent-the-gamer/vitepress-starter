@@ -12,6 +12,7 @@ lastUpdated: true
 - Pre-configured main page, navbars, sidebars.
 - twoslash - Add a hint of TypeScript compiler in code.
 - eslint - check and format codes and markdowns.
+- `medium-zoom` - images zoom on click.
 
 ```ts twoslash
 // This is twoslash
@@ -28,3 +29,10 @@ export default defineConfig({
   }
 })
 ```
+
+## Demo
+
+**Try image zoom here:**
+
+![wow](/imgs/wow.jpg)
+

@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 import { enConfig } from './configs/en'
 import { zhHansConfig } from './configs/zh_hans'
 import { docsConfig } from './docs'
+import { ImagePlugin } from './plugins/markdown/image' 
 
 export default defineConfig({
   base: '/vitepress-starter-demo/',
@@ -39,7 +40,7 @@ export default defineConfig({
     root: {
       label: 'English',
       lang: 'en',
-      link: '/en/',
+      link: '/',
       ...enConfig,
     },
     zh_hans: {
@@ -53,6 +54,9 @@ export default defineConfig({
     codeTransformers: [
       transformerTwoslash(),
     ],
+    config: (md) => {
+      md.use(ImagePlugin) 
+    },
   },
   lastUpdated: true,
 })

@@ -11,9 +11,6 @@
 > [!NOTE]
 > Change the `base` option to '/' to remove base url prefix.
 
-> [!WARNING]
-> The main page is on `<base_url>/en/`, not `<base_url>/`, VitePress will NOT redirect this for you.
-
 # Features
 
 - i18n - multi-language support.
@@ -22,6 +19,7 @@
 - Pre-configured main page, navbars, sidebars.
 - twoslash - Add a hint of TypeScript compiler in code.
 - eslint - check and format codes and markdowns.
+- `medium-zoom` - images zoom on click.
 
 # Usage
 

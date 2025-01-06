@@ -28,3 +28,9 @@ export default defineConfig({
   }
 })
 ```
+
+## 演示
+
+**在这里试用图片放大功能：**
+
+![wow](/imgs/wow.jpg)
