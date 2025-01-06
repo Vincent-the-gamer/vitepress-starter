@@ -11,7 +11,8 @@ lastUpdated: true
 - taze - 🥦 保持依赖最新🥦 。
 - 预配置的主页，边栏，顶部菜单。
 - twoslash - 在代码中给出TypeScript编译器的提示。
-- eslint - 代码与Markdown的检查和格式化.
+- eslint - 代码与Markdown的检查和格式化。
+- `medium-zoom` - 点击图片时放大。
 
 ```ts twoslash
 // 这就是twoslash
