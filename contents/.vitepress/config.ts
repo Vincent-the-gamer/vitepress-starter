@@ -4,9 +4,12 @@ import { enConfig } from './configs/en'
 import { zhHansConfig } from './configs/zh_hans'
 import { docsConfig } from './docs'
 import { ImagePlugin } from './plugins/markdown/image' 
+import useBaseUrl from './hooks/useBaseUrl'
+
+const baseUrl = useBaseUrl()
 
 export default defineConfig({
-  base: '/vitepress-starter-demo/',
+  base: baseUrl,
   ...docsConfig,
   themeConfig: {
     search: {
@@ -34,6 +37,9 @@ export default defineConfig({
     },
   },
   head: [
+    // favicon.ico
+    ['link', { rel: 'icon', href: `${baseUrl}/favicon.ico`}],
+    // others
     ['link', { rel: 'icon', href: '/logo/logo.png' }],
   ],
   locales: {

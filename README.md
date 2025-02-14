@@ -1,5 +1,5 @@
 <p align="center">
-    <img src=".github/logo.png" style="height: 100px;"/>
+    <img src="contents/public/logo/logo.png" style="height: 100px;"/>
 </p>
 
 <h1 align="center">VitePress Starter</h1>
@@ -9,7 +9,7 @@
 </p>
 
 > [!NOTE]
-> Change the `base` option to '/' to remove base url prefix.
+> To configure base url, modify `contents/.vitepress/hooks/useBaseUrl.ts`.
 
 # Features
 
