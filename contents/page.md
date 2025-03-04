@@ -35,4 +35,3 @@ export default defineConfig({
 **Try image zoom here:**
 
 ![wow](/imgs/wow.jpg)
-

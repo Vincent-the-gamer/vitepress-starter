@@ -3,8 +3,8 @@ import { defineConfig } from 'vitepress'
 import { enConfig } from './configs/en'
 import { zhHansConfig } from './configs/zh_hans'
 import { docsConfig } from './docs'
-import { ImagePlugin } from './plugins/markdown/image' 
 import useBaseUrl from './hooks/useBaseUrl'
+import { ImagePlugin } from './plugins/markdown/image'
 
 const baseUrl = useBaseUrl()
 
@@ -38,7 +38,7 @@ export default defineConfig({
   },
   head: [
     // favicon.ico
-    ['link', { rel: 'icon', href: `${baseUrl}/favicon.ico`}],
+    ['link', { rel: 'icon', href: `${baseUrl}/favicon.ico` }],
     // others
     ['link', { rel: 'icon', href: '/logo/logo.png' }],
   ],
@@ -61,7 +61,7 @@ export default defineConfig({
       transformerTwoslash(),
     ],
     config: (md) => {
-      md.use(ImagePlugin) 
+      md.use(ImagePlugin)
     },
   },
   lastUpdated: true,

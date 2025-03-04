@@ -23,6 +23,18 @@
 
 # Usage
 
+## Use this template
+
+1. Create repo from GitHub template.
+
+2. Clone to local without `.git` folder.
+```shell
+npx degit https://github.com/Vincent-the-gamer/vitepress-starter.git your-project-name
+
+# pnpm
+pnpx degit https://github.com/Vincent-the-gamer/vitepress-starter.git your-project-name
+```
+
 ## Don't forget to install dependencies!
 
 <pre align='center'>

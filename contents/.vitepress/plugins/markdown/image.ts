@@ -1,4 +1,5 @@
 import type MarkdownIt from 'markdown-it'
+
 export function ImagePlugin(md: MarkdownIt) {
   const imageRender = md.renderer.rules.image!
   md.renderer.rules.image = (...args) => {
@@ -9,7 +10,7 @@ export function ImagePlugin(md: MarkdownIt) {
         const size = data.match(/size=(\d+)(x\d+)?/)
         tokens[idx].attrs?.push(
           ['width', size?.[1] || ''],
-          ['height', size?.[2]?.substring(1) || size?.[1] || '']
+          ['height', size?.[2]?.substring(1) || size?.[1] || ''],
         )
       }
 

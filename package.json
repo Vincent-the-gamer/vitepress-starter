@@ -15,14 +15,19 @@
     "dep": "taze major"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.2.0",
-    "@shikijs/vitepress-twoslash": "^2.3.2",
-    "@types/node": "^22.13.4",
-    "eslint": "^9.20.1",
+    "@antfu/eslint-config": "^4.4.0",
+    "@shikijs/vitepress-twoslash": "^3.1.0",
+    "@types/node": "^22.13.9",
+    "eslint": "^9.21.0",
     "eslint-plugin-format": "^1.0.1",
     "medium-zoom": "^1.1.0",
-    "taze": "^18.5.0",
-    "vite": "^6.1.0",
-    "vitepress": "^2.0.0-alpha.2"
+    "taze": "^18.6.0",
+    "vite": "^6.2.0",
+    "vitepress": "^2.0.0-alpha.3"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
   }
 }
