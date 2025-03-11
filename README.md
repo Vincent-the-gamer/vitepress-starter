@@ -67,4 +67,4 @@ pnpm run dep
 
 # Demo
 
-[https://vincent-the-gamer.github.io/vitepress-starter-demo/](https://vincent-the-gamer.github.io/vitepress-starter-demo/)
+[Demo on Netlify](https://vp-starter.netlify.app)
