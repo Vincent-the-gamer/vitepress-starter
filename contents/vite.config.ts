@@ -1,15 +1,15 @@
-import { defineConfig } from 'vite'
-import UnoCSS from 'unocss/vite'
 import { presetAttributify, presetWind3 } from 'unocss'
+import UnoCSS from 'unocss/vite'
+import { defineConfig } from 'vite'
 
 export default defineConfig({
   plugins: [
     UnoCSS({
       presets: [
         presetWind3(),
-        presetAttributify()
-      ]
-    })
+        presetAttributify(),
+      ],
+    }),
   ],
   server: {
     host: '0.0.0.0',

@@ -29,6 +29,7 @@
 1. Create repo from GitHub template.
 
 2. Clone to local without `.git` folder.
+
 ```shell
 npx degit https://github.com/Vincent-the-gamer/vitepress-starter.git your-project-name
 
