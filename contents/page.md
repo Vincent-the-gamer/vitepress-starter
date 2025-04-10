@@ -13,10 +13,28 @@ lastUpdated: true
 - twoslash - Add a hint of TypeScript compiler in code.
 - eslint - check and format codes and markdowns.
 - `medium-zoom` - images zoom on click.
+- [UnoCSS](https://unocss.dev/) - Instant On-demand Atomic CSS Engine
+
+## Demo
+
+### UnoCSS
+
+<div mt-1>
+  <span>The text style is using</span>
+  <span color-violet font-size-18px ml-2 underline>UnoCSS</span>
+</div>
+
+```html
+<div mt-1>
+  <span>The text style is using</span>
+  <span color-violet font-size-18px ml-2 underline>UnoCSS</span>
+</div>
+```
+
+### Twoslash
 
 ```ts twoslash
 // This is twoslash
-
 import { transformerTwoslash } from '@shikijs/vitepress-twoslash'
 // @noErrors
 import { defineConfig } from 'vitepress'
@@ -30,7 +48,7 @@ export default defineConfig({
 })
 ```
 
-## Demo
+### medium-zoom
 
 **Try image zoom here:**
 

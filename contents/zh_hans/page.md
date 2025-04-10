@@ -13,10 +13,28 @@ lastUpdated: true
 - twoslash - 在代码中给出TypeScript编译器的提示。
 - eslint - 代码与Markdown的检查和格式化。
 - `medium-zoom` - 点击图片时放大。
+- [UnoCSS](https://unocss.dev/) - 即时按需的原子级CSS引擎
+
+## 演示
+
+### UnoCSS
+
+<div mt-1>
+  <span>这段文本的样式使用</span>
+  <span color-violet font-size-18px ml-2 underline>UnoCSS</span>
+</div>
+
+```html
+<div mt-1>
+  <span>这段文本的样式使用</span>
+  <span color-violet font-size-18px ml-2 underline>UnoCSS</span>
+</div>
+```
+
+### Twoslash
 
 ```ts twoslash
 // 这就是twoslash
-
 import { transformerTwoslash } from '@shikijs/vitepress-twoslash'
 // @noErrors
 import { defineConfig } from 'vitepress'
@@ -30,7 +48,7 @@ export default defineConfig({
 })
 ```
 
-## 演示
+### medium-zoom
 
 **在这里试用图片放大功能：**
 
