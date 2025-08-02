@@ -46,7 +46,7 @@ pnpm i
 ## Dev
 
 <pre align='center'>
-pnpm run serve
+pnpm run dev
 </pre>
 
 ## Format Code(use eslint)
