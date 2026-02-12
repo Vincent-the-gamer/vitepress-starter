@@ -1,8 +1,9 @@
-import type { DefaultTheme, LocaleSpecificConfig } from 'vitepress'
+import type { LocaleSpecificConfig } from 'vitepress'
+import type { ThemeConfig } from 'vitepress-carbon/config'
 import getNavs from '../navs/en'
 import sidebar from '../sidebars/en'
 
-export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
+export const enConfig: LocaleSpecificConfig<ThemeConfig> = {
   themeConfig: {
     logo: '/logo/logo.png',
     outlineTitle: 'Contents',

@@ -1,8 +1,9 @@
-import type { DefaultTheme, LocaleSpecificConfig } from 'vitepress'
+import type { LocaleSpecificConfig } from 'vitepress'
+import type { ThemeConfig } from 'vitepress-carbon/config'
 import getNavs from '../navs/zh_hans'
 import sidebar from '../sidebars/zh_hans'
 
-export const zhHansConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
+export const zhHansConfig: LocaleSpecificConfig<ThemeConfig> = {
   themeConfig: {
     logo: '/logo/logo.png',
     outlineTitle: '目录',

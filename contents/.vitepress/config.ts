@@ -1,5 +1,6 @@
-import { transformerTwoslash } from '@shikijs/vitepress-twoslash'
+import type { ThemeConfig } from 'vitepress-carbon/config'
 import { defineConfig } from 'vitepress'
+import baseConfig from 'vitepress-carbon/config'
 import { enConfig } from './configs/en'
 import { zhHansConfig } from './configs/zh_hans'
 import { docsConfig } from './docs'
@@ -8,8 +9,9 @@ import { ImagePlugin } from './plugins/markdown/image'
 
 const baseUrl = useBaseUrl()
 
-export default defineConfig({
+export default defineConfig<ThemeConfig>({
   base: baseUrl,
+  extends: baseConfig,
   ...docsConfig,
   themeConfig: {
     search: {
@@ -57,9 +59,6 @@ export default defineConfig({
     },
   },
   markdown: {
-    codeTransformers: [
-      transformerTwoslash(),
-    ],
     config: (md) => {
       md.use(ImagePlugin)
     },
