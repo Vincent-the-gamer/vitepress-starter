@@ -18,6 +18,7 @@
 - taze - 🥦 keep your dependencies fresh.🥦
 - Pre-configured main page, navbars, sidebars.
 - eslint - check and format codes and markdowns.
+- twoslash - Add a hint of TypeScript compiler in code.
 - `medium-zoom` - images zoom on click.
 - [UnoCSS](https://unocss.dev/) - Instant On-demand Atomic CSS Engine
 

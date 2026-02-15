@@ -30,6 +30,21 @@ lastUpdated: true
 </div>
 ```
 
+### Twoslash
+
+```ts twoslash
+// 这就是twoslash
+import { transformerTwoslash } from "@shikijs/vitepress-twoslash";
+// @noErrors
+import { defineConfig } from "vitepress";
+
+export default defineConfig({
+  markdown: {
+    codeTransformers: [transformerTwoslash()],
+  },
+});
+```
+
 ### medium-zoom
 
 **在这里试用图片放大功能：**

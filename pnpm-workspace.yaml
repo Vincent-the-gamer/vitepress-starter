@@ -1,0 +1,4 @@
+onlyBuiltDependencies:
+  - esbuild
+  - vitepress-carbon
+  - vue-demi

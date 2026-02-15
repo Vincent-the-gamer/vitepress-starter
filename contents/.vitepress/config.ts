@@ -1,4 +1,3 @@
-import type { ThemeConfig } from 'vitepress-carbon/config'
 import { defineConfig } from 'vitepress'
 import baseConfig from 'vitepress-carbon/config'
 import { enConfig } from './configs/en'
@@ -6,10 +5,11 @@ import { zhHansConfig } from './configs/zh_hans'
 import { docsConfig } from './docs'
 import useBaseUrl from './hooks/useBaseUrl'
 import { ImagePlugin } from './plugins/markdown/image'
+import { transformerTwoslash } from '@shikijs/vitepress-twoslash'
 
 const baseUrl = useBaseUrl()
 
-export default defineConfig<ThemeConfig>({
+export default defineConfig({
   base: baseUrl,
   extends: baseConfig,
   ...docsConfig,
@@ -59,6 +59,9 @@ export default defineConfig<ThemeConfig>({
     },
   },
   markdown: {
+    codeTransformers: [
+      transformerTwoslash(),
+    ],
     config: (md) => {
       md.use(ImagePlugin)
     },
