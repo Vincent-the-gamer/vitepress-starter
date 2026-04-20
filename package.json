@@ -1,7 +1,7 @@
 {
   "name": "vitepress-starter",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "♥️ Opinionated Vitepress Template ♥️",
   "author": "",
   "license": "MIT",
@@ -26,7 +26,8 @@
     "taze": "^19.11.0",
     "unocss": "66.4.1",
     "vite": "^8.0.9",
-    "vitepress": "^2.0.0-alpha.17"
+    "vitepress": "^2.0.0-alpha.17",
+    "vitepress-theme-teek": "^1.5.6"
   },
   "pnpm": {
     "onlyBuiltDependencies": [

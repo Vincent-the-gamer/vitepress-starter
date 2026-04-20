@@ -14,6 +14,7 @@ lastUpdated: true
 - eslint - 代码与Markdown的检查和格式化。
 - `medium-zoom` - 点击图片时放大。
 - [UnoCSS](https://unocss.dev/) - 即时按需的原子级CSS引擎
+- [VitePress Theme Teek](https://github.com/Kele-Bingtang/vitepress-theme-teek) - 美化你的文档
 
 ## 演示
 
@@ -35,17 +36,15 @@ lastUpdated: true
 
 ```ts twoslash
 // 这就是twoslash
-import { transformerTwoslash } from '@shikijs/vitepress-twoslash'
+import { transformerTwoslash } from "@shikijs/vitepress-twoslash";
 // @noErrors
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
 
 export default defineConfig({
   markdown: {
-    codeTransformers: [
-      transformerTwoslash()
-    ]
-  }
-})
+    codeTransformers: [transformerTwoslash()],
+  },
+});
 ```
 
 ### medium-zoom

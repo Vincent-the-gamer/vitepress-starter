@@ -14,6 +14,7 @@ lastUpdated: true
 - eslint - check and format codes and markdowns.
 - `medium-zoom` - images zoom on click.
 - [UnoCSS](https://unocss.dev/) - Instant On-demand Atomic CSS Engine
+- [VitePress Theme Teek](https://github.com/Kele-Bingtang/vitepress-theme-teek) - beautify your doc.
 
 ## Demo
 
@@ -35,17 +36,15 @@ lastUpdated: true
 
 ```ts twoslash
 // This is twoslash
-import { transformerTwoslash } from '@shikijs/vitepress-twoslash'
+import { transformerTwoslash } from "@shikijs/vitepress-twoslash";
 // @noErrors
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
 
 export default defineConfig({
   markdown: {
-    codeTransformers: [
-      transformerTwoslash()
-    ]
-  }
-})
+    codeTransformers: [transformerTwoslash()],
+  },
+});
 ```
 
 ### medium-zoom

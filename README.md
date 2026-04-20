@@ -23,6 +23,7 @@
 - eslint - check and format codes and markdowns.
 - `medium-zoom` - images zoom on click.
 - [UnoCSS](https://unocss.dev/) - Instant On-demand Atomic CSS Engine
+- [VitePress Theme Teek](https://github.com/Kele-Bingtang/vitepress-theme-teek) - beautify your doc.
 
 # Usage
 
