@@ -17,16 +17,16 @@
     "dep": "taze major"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^7.2.0",
-    "@shikijs/vitepress-twoslash": "^3.21.0",
-    "@types/node": "^25.0.10",
-    "eslint": "^9.39.2",
-    "eslint-plugin-format": "^1.3.1",
+    "@antfu/eslint-config": "^8.2.0",
+    "@shikijs/vitepress-twoslash": "^4.0.2",
+    "@types/node": "^25.6.0",
+    "eslint": "^10.2.1",
+    "eslint-plugin-format": "^2.0.1",
     "medium-zoom": "^1.1.0",
-    "taze": "^19.9.2",
+    "taze": "^19.11.0",
     "unocss": "66.4.1",
-    "vite": "^7.3.1",
-    "vitepress": "^2.0.0-alpha.15"
+    "vite": "^8.0.9",
+    "vitepress": "^2.0.0-alpha.17"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
