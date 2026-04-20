@@ -47,6 +47,14 @@ const teekConfig = defineTeekConfig({
       md.use(ImagePlugin)
     },
   },
+  footerInfo: {
+    theme: {
+      show: false,
+    },
+    copyright: {
+      show: false,
+    },
+  },
 })
 
 const baseUrl = useBaseUrl()

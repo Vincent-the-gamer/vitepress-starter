@@ -3,11 +3,9 @@ import TwoslashFloatingVue from '@shikijs/vitepress-twoslash/client'
 import Teek, { teekConfigContext, TkNotice } from 'vitepress-theme-teek'
 import { h, provide } from 'vue'
 import NoticeContent from '../components/NoticeContent.vue'
-import { useMediumZoomProvider } from '../hooks'
 
 import 'vitepress-theme-teek/index.css'
 import '@shikijs/vitepress-twoslash/style.css'
-import './medium-zoom.css'
 import 'virtual:uno.css'
 import 'vitepress-theme-teek/theme-chalk/tk-code-block-mobile.css'
 import 'vitepress-theme-teek/theme-chalk/tk-sidebar.css'
@@ -53,6 +51,5 @@ export default {
   enhanceApp(ctx: EnhanceAppContext) {
     const { app, router, siteData } = ctx
     app.use(TwoslashFloatingVue)
-    useMediumZoomProvider(app, router)
   },
 }

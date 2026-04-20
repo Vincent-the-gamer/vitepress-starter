@@ -47,8 +47,8 @@ export default defineConfig({
 });
 ```
 
-### medium-zoom
+### Image Zoom
 
-**Try image zoom here:**
+We no longer need medium-zoom anymore, just use Teek Theme
 
 ![wow](/imgs/wow.jpg)

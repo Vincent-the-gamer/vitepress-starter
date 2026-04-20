@@ -47,8 +47,8 @@ export default defineConfig({
 });
 ```
 
-### medium-zoom
+### 图片放大
 
-**在这里试用图片放大功能：**
+我们不需要medium-zoom了，Teek主题自带了。
 
 ![wow](/imgs/wow.jpg)
