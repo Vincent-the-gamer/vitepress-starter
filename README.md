@@ -10,6 +10,8 @@
 
 > [!NOTE]
 > To configure base url, modify `contents/.vitepress/hooks/useBaseUrl.ts`.
+>
+> To see carbon theme, switch to branch [carbon](https://github.com/Vincent-the-gamer/vitepress-starter/tree/carbon)
 
 # Features
 
